@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/avenir/35-light.woff2") format("woff2");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/avenir/45-book.woff2") format("woff2");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/avenir/55-roman.woff2") format("woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/avenir/65-medium.woff2") format("woff2");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/avenir/85-heavy.woff2") format("woff2");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/avenir/95-black.woff2") format("woff2");
+    font-weight: 900;
+}

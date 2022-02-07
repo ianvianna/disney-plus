@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: #040714;
+    font-family: "Avenir";
+    font-weight: 300;
+    color: #f9f9f9;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.blue-button {
+    background: #0063e5;
+    font-size: 1.125em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    color: #f9f9f9;
+}
+.blue-button:hover {
+    background: #016cf9;
+    transition: background 0.2s linear;
+}
+
+/*   R E S P O N S I V E   */
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+}

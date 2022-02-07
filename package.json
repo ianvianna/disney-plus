@@ -1,0 +1,11 @@
+{
+  "name": "disney-plus",
+  "version": "2.0.0",
+  "description": "Réplica da página oficial do Disney Plus!",
+  "main": "scripts/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian M. Vianna",
+  "license": "ISC"
+}
