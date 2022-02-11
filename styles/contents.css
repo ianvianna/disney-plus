@@ -49,6 +49,26 @@
     left: 50%;
     width: calc(50% - 5.5vw);
 }
+.fourth-content {
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.fourth-content-item {
+    flex: 1;
+    text-align: center;
+}
+.fourth-content-item h3 {
+    margin: 20px 0 24px 0;
+    font-size: 1.75em;
+    letter-spacing: -2px;
+}
+.fourth-content ul {
+    margin-bottom: 20px;
+}
+.fourth-content-item ul li {
+    font-size: 1.125em;
+    color: #c0c0c0;
+}
 @media (max-width: 786px) {
     .content {
         padding: 10vw 5vw;
@@ -60,5 +80,9 @@
     }
     .third-content .content-text {
         position: initial;
+    }
+    .fourth-content-item {
+        flex: 0 1 auto;
+        width: 50%;
     }
 }
